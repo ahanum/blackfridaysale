@@ -1,4 +1,4 @@
-# Core Pkgs
+
 import streamlit as st 
 import streamlit.components.v1 as stc 
 from eda_app import run_eda
@@ -24,8 +24,8 @@ def main():
 	else:
 		st.subheader("About")
 		st.info("Built with Streamlit")
-		st.text("Jesus Saves @JCharisTech")
-		st.text("Jesse E.Agbe(JCharis)")
+		st.text("Source Code: Jesse E.Agbe(JCharis)")
+		st.text("By Amirah Hanum")
 
 
 
