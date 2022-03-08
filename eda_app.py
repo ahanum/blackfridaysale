@@ -1,6 +1,6 @@
 import streamlit as st 
 import pandas as pd 
-# Data Viz Pkgs
+
 import matplotlib.pyplot as plt 
 import matplotlib
 matplotlib.use('Agg')
@@ -32,7 +32,7 @@ def run_eda():
 	df = load_data("BlackFriday.csv")
 
 	if submenu == "EDA":
-		st.subheader("Exploratory Data")
+		st.subheader("Exploratory Data Analysis")
 		st.dataframe(df.head())
 
 		c1,c2 = st.beta_columns(2)
