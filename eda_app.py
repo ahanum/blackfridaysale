@@ -29,7 +29,7 @@ def count_plot(dataframe, column_name, title =None, hue = None):
 def run_eda():
 	st.subheader("EDA")
 	submenu = st.sidebar.selectbox("Submenu",["EDA","Plots"])
-	df = load_data("data/BlackFriday.csv")
+	df = load_data("BlackFriday.csv")
 
 	if submenu == "EDA":
 		st.subheader("Exploratory Data")
