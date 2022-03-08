@@ -9,8 +9,8 @@ import plotly.express as px
 
 
 @st.cache
-def load_data(BlackFriday.csv):
-	df = pd.read_csv(BlackFriday)
+def load_data(data):
+	df = pd.read_csv(BlackFriday.csv)
 	return df
 
 def count_plot(dataframe, column_name, title =None, hue = None):
