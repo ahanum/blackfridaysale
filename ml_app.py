@@ -1,7 +1,4 @@
-# Core Pkgs
 import streamlit as st 
-
-# Utils
 import numpy as np 
 import joblib
 import os
@@ -24,9 +21,6 @@ def get_value(val,my_dict):
 		if val == key:
 			return value 
 
-
-
-# Load ML Models
 @st.cache
 def load_model(model_file):
 	loaded_model = joblib.load(open(os.path.join(model_file),"rb"))
@@ -50,9 +44,9 @@ def run_ml():
 		product_category_2 = st.number_input("Product 2",1,20)
 		product_category_3 = st.number_input("Product 3",1,20)
 
-	selected_options = {'Gender':gender,'Age':age,'Occupation':occupation, 'City_Category':city_category,
+	selected_options = {('Gender':gender,'Age':age,'Occupation':occupation, 'City_Category':city_category,
 	'Stay_In_Current_City_Years':stay_in_current_city, 'Marital_Status':marital_status, 'Product_Category_1':product_category_1,
-	'Product_Category_2':product_category_2, 'Product_Category_3':product_category_3}
+	'Product_Category_2':product_category_2, 'Product_Category_3':product_category_3)}
 
 
 	gender_en = get_value(gender,gender_dict)
