@@ -15,7 +15,7 @@ html_temp = """
 
 
 image = Image.open('Black-Friday-Sale.jpg')
-streamlit.image(image,'')
+st.image(image,'')
 
 
 def main():
