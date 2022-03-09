@@ -31,7 +31,7 @@ def main():
 	else:
 		st.subheader("About")
 		st.info("Built with Streamlit")
-		st.text("This app predict the **Black Friday Sale** based on the data obtained from https://www.kaggle.com/llopesolivei/blackfriday in Kaggle.")
+		st.text("""This app predict the Black Friday Sale based on the data obtained from https://www.kaggle.com/llopesolivei/blackfriday in Kaggle.""")
 		st.text("Source Code: Jesse E.Agbe(JCharis)")
 		st.text("By Amirah Hanum")
 
