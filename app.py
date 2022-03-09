@@ -11,8 +11,8 @@ html_temp = """
 		<h4 style="color:white;text-align:center;">Happy Thanksgiving</h4>
 		</div>
 		"""
+
 st.title('Black Friday Sale Prediction App')
-st.set_page_config(page_title="Happy Holiday Season")
 		   
 image = Image.open('Black-Friday-Sale.jpg')
 st.image(image,'')
