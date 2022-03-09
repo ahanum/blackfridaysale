@@ -5,6 +5,13 @@ from eda_app import run_eda
 from ml_app import run_ml
 from PIL import Image
 
+html_temp = """
+		<div style="background-color:#000000;padding:10px;border-radius:10px">
+		<h1 style="color:white;text-align:center;">Black Friday Sales App</h1>
+		<h4 style="color:white;text-align:center;">Happy Thanksgiving</h4>
+		</div>
+		"""
+
 st.title('Black Friday Sale Prediction App')
 		   
 image = Image.open('Black-Friday-Sale.jpg')
