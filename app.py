@@ -13,7 +13,7 @@ html_temp = """
 		</div>
 		"""
 
-model= pickle.load(open('model.sav', 'rb'))
+
 image = Image.open('Black-Friday-Sale.jpg')
 streamlit.image(image,'')
 
