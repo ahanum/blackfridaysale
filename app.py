@@ -3,6 +3,7 @@ import streamlit as st
 import streamlit.components.v1 as stc 
 from eda_app import run_eda
 from ml_app import run_ml
+from PIL import Image
 
 html_temp = """
 		<div style="background-color:#3872fb;padding:10px;border-radius:10px">
@@ -10,6 +11,11 @@ html_temp = """
 		<h4 style="color:white;text-align:center;">Happy Thanksgiving</h4>
 		</div>
 		"""
+
+model= pickle.load(open('model.sav', 'rb'))
+image = Image.open('Black-Friday-Sale.jpg')
+streamlit.image(image,'')
+
 
 def main():
 	stc.html(html_temp)
@@ -55,7 +61,3 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown(
-    "<h1 style='text-align: center;'>Happy Holiday Season</h1>", unsafe_allow_html=True
-)
-st.write("")
