@@ -32,7 +32,6 @@ def main():
 if __name__ == '__main__':
 	main()
 	
-	
 # Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
@@ -55,3 +54,8 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+st.markdown(
+    "<h1 style='text-align: center;'>Happy Holiday Season</h1>", unsafe_allow_html=True
+)
+st.write("")
