@@ -1,7 +1,6 @@
 
 import streamlit as st 
 import streamlit.components.v1 as stc 
-import pickle
 from eda_app import run_eda
 from ml_app import run_ml
 from PIL import Image
