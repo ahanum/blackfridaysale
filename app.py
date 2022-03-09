@@ -102,7 +102,8 @@ header .decoration {
     unsafe_allow_html=True,
 )
 
- st.markdown(
+
+st.markdown(
     """
     <style>
     .reportview-container {
