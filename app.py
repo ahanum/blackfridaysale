@@ -85,7 +85,7 @@ st.markdown(
     background-color: transparent;
 }
 .st-at {
-    background-color: #0c0080;
+    background-color: #000000;
 }
 footer {
     font-family: monospace;
@@ -97,22 +97,14 @@ header .decoration {
     background-image: none;
 }
 
-</style>
-""",
-    unsafe_allow_html=True,
-)
-
-
-st.markdown(
-    """
-    <style>
+ <style>
     .reportview-container {
-        background: #00000
+        background: #000000
     }
    .sidebar .sidebar-content {
-        background: #00000
+        background: #000000
     }
-    </style>
+ </style>
     """,
     unsafe_allow_html=True
 )
