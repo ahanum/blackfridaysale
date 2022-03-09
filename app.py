@@ -91,7 +91,7 @@ footer {
     font-family: monospace;
 }
 .reportview-container .main footer, .reportview-container .main footer a {
-    color: #0c0080;
+    color: #000000;
 }
 header .decoration {
     background-image: none;
