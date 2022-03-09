@@ -70,7 +70,7 @@ st.markdown(
     font-family: monospace;
 }
 .sidebar .sidebar-content {
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+    background-image: linear-gradient(#00000,#2e7bcf);
     color: white;
 }
 .Widget>label {
@@ -102,3 +102,16 @@ header .decoration {
     unsafe_allow_html=True,
 )
 
+ st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: #00000
+    }
+   .sidebar .sidebar-content {
+        background: #00000
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
