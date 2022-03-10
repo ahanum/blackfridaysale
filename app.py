@@ -63,48 +63,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown(
-    """
-<style>
-.reportview-container .markdown-text-container {
-    font-family: monospace;
-}
-.sidebar .sidebar-content {
-    background-image: linear-gradient(#00000,#2e7bcf);
-    color: white;
-}
-.Widget>label {
-    color: white;
-    font-family: monospace;
-}
-[class^="st-b"]  {
-    color: white;
-    font-family: monospace;
-}
-.st-bb {
-    background-color: transparent;
-}
-.st-at {
-    background-color: #000000;
-}
-footer {
-    font-family: monospace;
-}
-.reportview-container .main footer, .reportview-container .main footer a {
-    color: #000000;
-}
-header .decoration {
-    background-image: none;
-}
-
- <style>
-    .reportview-container {
-        background: #000000
-    }
-   .sidebar .sidebar-content {
-        background: #000000
-    }
- </style>
-    """,
-    unsafe_allow_html=True
-)
+[theme]
+primaryColor="#d33682"
+backgroundColor="#002b36"
+secondaryBackgroundColor="#586e75"
+textColor="#fafafa"
+font="sans serif"
