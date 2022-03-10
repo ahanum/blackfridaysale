@@ -19,7 +19,7 @@ st.image(image,'')
 
 
 def main():
-	stc.html(html_temp)
+	
 	menu = ["EDA","ML","About"]
 	choice = st.sidebar.selectbox("Menu",menu)
 
@@ -63,9 +63,3 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-[theme]
-primaryColor="#d33682"
-backgroundColor="#002b36"
-secondaryBackgroundColor="#586e75"
-textColor="#fafafa"
-font="sans serif"
